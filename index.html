@@ -1,0 +1,485 @@
+<!-- ***************************************************
+Author: Thormod
+Band: DeadCountry Brothers
+Year: 2016
+**************************************************** -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dead Country Brothers</title>
+<link rel="icon" type="image/ico" href="images/favicon.ico">
+<!--******************* Meta data *************************************-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--***************** ./Meta data *************************************-->
+
+<!--************************* CSS *************************************-->
+<link href="http://fonts.googleapis.com/css?family=PT%20Sans:400,700" rel="stylesheet" type="text/css">
+
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap-responsive.css" rel="stylesheet" media="screen">
+
+<link href="css/band.css" rel="stylesheet" media="all">
+<link rel="stylesheet" href="css/flexslider.css"/>
+<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css?v=2.1.4" media="screen"/>
+
+<!--************************ ./CSS *************************************-->
+
+<!--*************************  JS  *************************************-->
+<script src="js/jquery-1.9.0.min.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox.js?v=2.1.4"></script>
+<script src="js/contact_form.js"></script>
+
+<!-- Inializate components -->
+<script type="text/javascript">
+$(window).load(function() {
+   $('.flexslider').flexslider({
+      animation: "slide"
+    });
+});
+</script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('.fancybox').fancybox({
+  helpers : {
+      overlay : {
+          locked : false,
+      }
+  }
+});
+});
+</script>
+<script src="js/stellar.js"></script>
+<script>
+	$(function(){
+		$.stellar({
+			horizontalScrolling: false,
+			verticalOffset: 40
+		});
+	});
+	</script>
+<!-- ./Inializate components -->
+<!--************************* ./JS  ***********************************-->
+
+</head>
+<body>
+
+<a id="home"></a>
+<div class="jumbotron">
+<!-- Navbar-->
+<div class="navbar navbar-fixed-top navbar-absolute">
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>
+      <a class="brand" href="#"> <img src="images/logo-small-2.png" alt="logo"></a>
+      <div class="nav-collapse collapse">
+        <ul class="nav pull-right" style="margin-top: 35px; font-size: 20px;">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#events">EVENTS</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#gallery">GALLERY</a></li>
+          <li><a href="#media">VIDEOS</a></li>
+          <!--<li><a href="#audio">AUDIO</a></li>
+          <li><a href="#newsletter">SUBSCRIBE</a></li>
+          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+          <li><a href="blog.html" target="_blank">BLOG LIST</a></li>
+          <li><a href="blog-post.html" target="_blank">SINGLE BLOG PAGE</a></li>
+          <li><a href="404.html" target="_blank">404 PAGE</a></li>
+          <li><a href="soon.html" target="_blank">COMING SOON</a></li>
+        </ul>
+      </li>-->
+        <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ./Navbar -->
+<div class="masthead">
+  <div class="logo-header">
+    <div class="hero-unit">
+    <p class="text-center"><img src="images/logo-big-2.png" alt="band logo"></p>
+    <!--<h1>THE SOUL OF MUSIC</h1>-->
+    <h3 class="subtitle fancy hidden-phone"><span>OFFICIAL WEBSITE</span></h3>
+    </div>
+  </div>
+
+   <p class="text-center hidden-phone"> <a href="#events"><img src="images/arrow-bottom.png" alt="sroll to arrow"></a></p>
+</div>
+
+<div class="container"> <a id="events"></a>
+<div class="row-fluid PageHead">
+<div class="span12">
+<h3 style="color: #000">UPCOMING EVENTS<span> <img src="images/underline.png" alt="______"></span></h3>
+</div>
+</div>
+
+<div class="row-fluid EventsList">
+<div class="span12">
+<div class="thumbnail">
+<div class="caption">
+<h3>DOPAMINA ROCK BAR</h3>
+<p>Sat 16 - April, 06:00 PM</p>
+<p class="text-center"><a class="fancybox" href="images/gallery/events/01.jpg" data-fancybox-group="gallery" title="Band photos" class="btn btn-med">INFO</a> </p>
+</div>
+</div>
+</div>
+
+</div>
+
+<div class="moreevents">
+<div class="row-fluid EventsList">
+<div class="span4">
+<div class="thumbnail">
+<div class="caption">
+<h3>PSY MEGA SHOW</h3>
+<p>Sep 17, 06:00 PM</p>
+<p class="text-center"><a href="#" class="btn btn-med">TICKETS</a> </p>
+</div>
+</div>
+</div>
+<div class="span4">
+<div class="thumbnail">
+<div class="caption">
+<h3>MUSIC WITH RAAGA BAND</h3>
+<p>OCT 22, 08:30 PM</p>
+<p class="text-center"><a href="#" class="btn btn-med">TICKETS</a> </p>
+</div>
+</div>
+</div>
+<div class="span4">
+<div class="thumbnail">
+<div class="caption">
+<h3>BLACK FRIDAY EVENT</h3>
+<p>NOV 05, 10:00 PM</p>
+<p class="text-center"><a href="#" class="btn btn-med">TICKETS</a> </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p class="sectionfooter text-center"> <a class="showmore btn-link"><img src="images/show_icon.png" alt="icon"> <span>SHOW ALL EVENTS</span> </a> </p>
+</div>
+
+<div class="about" id="about" data-stellar-background-ratio="0.5">
+<div class="container">
+<div class="row-fluid PageHead inverse">
+<div class="span12">
+<h3 style>ABOUT THE BAND<span> <img src="images/underline.png" alt="______"></span></h3>
+</div>
+</div>
+<p class="lead text-center"><!-- start slipsum code -->
+
+<strong style="color: #d62d11;">Dead Country Brothers</strong> es una banda de Country Rock nacida en la ciudad de Medellín en Enero de 2014 que mezcla las sonoridades de la música Country, el Blues, Bluegrass y Old Times con el sonido contundente del Rock y el Rock and Roll. <br>
+Las letras exponen temáticas variadas que cuentan historias a través de la canción y que pretenden dejar un mensaje y una experiencia de entretenimiento al público con cada historia que se cuenta. <br>
+La banda como idea nace a finales de 2013 con Juan Carlos Riveros y Andrés Gil interpretando algunos temas tradicionales y modernos del estilo Americana Folk y creando así mismo composiciones autóctonas, pero es en Enero de 2014, donde se constituye como agrupación musical, con una alineación de 5 miembros. Actualmente la banda está conformada por Juan Carlos Riveros y Andrés Gil en guitarras acústicas y voces, Juan Pablo Giraldo en el Bajo y coros, Diego García en la Batería, Daniel Montoya en la guitarra Eléctrica y Sebastián Villa en la Harmonica</p>
+<div class="row-fluid PageHead inverse">
+<div class="span12">
+<h3>THE GANG<span> <img src="images/underline.png" alt="______"></span></h3>
+</div>
+</div>
+<div class="row-fluid theteam">
+<div class="span3"><img src="images/team-img-1-2.jpg" alt="team"></div>
+<div class="span3"><img src="images/team-img-2-2.jpg" alt="team"></div>
+<div class="span3"><img src="images/team-img-3-2.jpg" alt="team"></div>
+<div class="span3"><img src="images/team-img-4-2.jpg" alt="team"></div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+
+<div class="container"> <a id="gallery"></a>
+<div class="row-fluid PageHead">
+<div class="span12">
+<h3>IMAGE GALLERY<span> <img src="images/underline.png" alt="______"></span></h3>
+</div>
+</div>
+<div class="row-fluid Gallery">
+<div class="span12">
+<ul>
+<li><a class="fancybox" href="images/gallery/photo/011.jpg" data-fancybox-group="gallery" title="Band photos"><img src="images/gallery/thumb/thumb1.jpg" alt=""/></a></li>
+<li><a class="fancybox" href="images/gallery/photo/014.jpg" data-fancybox-group="gallery" title="Band photos"><img src="images/gallery/thumb/thumb2.jpg" alt=""/></a></li>
+<li><a class="fancybox" href="images/gallery/photo/017.jpg" data-fancybox-group="gallery" title="Band photos"><img src="images/gallery/thumb/thumb3.jpg" alt=""/></a></li>
+<li><a class="fancybox" href="images/gallery/photo/027.jpg" data-fancybox-group="gallery" title="Band photos"><img src="images/gallery/thumb/thumb4.jpg" alt=""/></a></li>
+<li><a class="fancybox" href="images/gallery/photo/038.jpg" data-fancybox-group="gallery" title="Band photos"><img src="images/gallery/thumb/thumb5.jpg" alt=""/></a></li>
+<li><a class="fancybox" href="images/gallery/photo/023.jpg" data-fancybox-group="gallery" title="Band photos"><img src="images/gallery/thumb/thumb6.jpg" alt=""/></a></li>
+<li><a class="fancybox" href="images/gallery/photo/043.jpg" data-fancybox-group="gallery" title="Band photos"><img src="images/gallery/thumb/thumb7.jpg" alt=""/></a></li>
+<li><a class="fancybox" href="images/gallery/photo/066.jpg" data-fancybox-group="gallery" title="Band photos"><img src="images/gallery/thumb/thumb8.jpg" alt=""/></a></li>
+</ul>
+<p class="sectionfooter text-center">&nbsp; </p>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="ourmedia" id="media" data-stellar-background-ratio="0.5">
+<div class="container">
+<div class="row-fluid PageHead inverse">
+<div class="span12">
+<h3>MUSIC VIDEOS<span> <img src="images/underline.png" alt="______"></span></h3>
+</div>
+</div>
+<div class="row-fluid">
+<div class="span12 text-center mediavideo">
+<iframe width="640" height="360" src="https://www.youtube.com/embed/22yZwco5WXU" allowfullscreen></iframe>
+</div>
+</div>
+<div class="row-fluid MediaThumb">
+<div class="span3 playvideo" data-url="http://www.youtube.com/embed/22yZwco5WXU"> <img src="images/gallery/thumb/thumb9.jpg" alt="media">
+<p>WAlKIN</p>
+</div>
+<div class="span3 playvideo" data-url="http://www.youtube.com/embed/5zXr9IjQcco"> <img src="images/gallery/thumb/thumb9.jpg" alt="media">
+<p>THE BALD ONE</p>
+</div>
+<div class="span3 playvideo" data-url="http://www.youtube.com/embed/4mgS9BP1qK8"> <img src="images/gallery/thumb/thumb9.jpg" alt="media">
+<p>FALLING APART</p>
+</div>
+<div class="span3 playvideo" data-url="http://www.youtube.com/embed/gLBJYtEOA08"> <img src="images/gallery/thumb/thumb9.jpg" alt="media">
+<p>FOLSON PRISON BLUES</p>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+<div id="contact">
+<div class="container">
+<div class="row-fluid PageHead">
+<div class="span12">
+<h3>CONTACT US<span> <img src="images/underline.png" alt="______"></span></h3>
+</div>
+</div>
+<div class="row-fluid ContactUs">
+<div class="span6">
+<form class="form-horizontal" id="phpcontactform">
+<div class="control-group">
+<label for="name">Nombre <span class="required">*</span></label>
+<input class="input-block-level" type="text" aria-required="true" size="30" value="" name="nombre" id="c_name" class="form-control" placeholder="Nombre">
+</div>
+<div class="control-group">
+<label for="email">E-mail <span class="required">*</span></label>
+<input class="input-block-level" type="email" aria-required="true" size="30" value="" name="email"  id="c_mail" class="form-control" placeholder="E-mail">
+</div>
+<div class="control-group">
+<label for="message">Mensaje</label>
+<textarea class="input-block-level" aria-required="true" rows="8" cols="45" name="mensaje"  id="c_msg" class="form-control" placeholder="Mensaje..."></textarea>
+</div>
+<div class="control-group">
+<p>
+<input class="btn btn-danger btn-large" name="send" onclick="cargaSendMail()" type="button" value="Enviar" id="c_enviar" class="theme_btn">
+</p>
+<span class="loading"></span> </div>
+</form>
+</div>
+<div class="span6">
+<div class="row-fluid">
+<div class="span12">
+<h4> Medellin - Colombia </h4>
+<address>
+<strong>D.C.B</strong><br>
+<abbr title="Phone">P:</abbr> +57 319-272-8568<br>
+<abbr title="Phone">P2:</abbr> +57 301-640-6424<br>
+
+<abbr title="Email"> E: </abbr>
+<a href="/cdn-cgi/l/email-protection#c5b6b0b5b5aab7b185b6b0b7afacb1ada6b1a9bcebacab">
+<span>deadcountrybrothers@gmail.com</span>
+</a>
+<br>
+</address>
+</div>
+</div>
+<div class="row-fluid">
+<div class="span12"> <img src="http://maps.googleapis.com/maps/api/staticmap?center=ellín,+Antioquia,+Colombia&amp;zoom=13&amp;size=600x300&amp;scale=2&amp;sensor=false" alt="static map"> <br>
+<br>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+<div class="footer" id="footer" style="background-position: 0 150px;">
+<div class="row-fluid">
+<div class="span12 socialButtons">
+  <a href="https://www.instagram.com/deadcountrybrothers/" target="_blank">
+    <img src="images/twitter_icon.png" alt="twitter">
+  </a>
+  <a href="https://www.facebook.com/deadcountrybrothers/?fref=ts" target="_blank">
+    <img src="images/facebook_icon.png" alt="facebook">
+  </a>
+  <a href="https://www.youtube.com/channel/UCQTVkpp2U6eRj3TupqgqDSw" target="_blank">
+    <img src="images/youtube_icon.png" alt="youtube" height="70" width="70">
+  </a>
+</div>
+</div>
+<p class="text-center">Copyright © 2016 <strong style="color: #d62d11;">Dead Country Brothers</strong></p>
+</div>
+
+<a href="#" class="scrollup">Scroll</a>
+
+<script src="js/jquery.easing.1.2.js"></script>
+
+<script src="js/modernizr.js"></script>
+
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
+
+<script>
+$(function() {
+    $('.nav li a, .jumbotron p a').bind('click',function(event){
+        var $anchor2 = $(this).parent();
+var $anchor = $(this);
+$('.nav  li').removeClass('active');
+        $anchor2.addClass('active');
+
+
+        $('html, body').stop().animate({
+            scrollTop: $($anchor.attr('href')).offset().top - 50
+        }, 1500,'easeInOutExpo');
+        /*
+        if you don't want to use the easing effects:
+        $('html, body').stop().animate({
+            scrollTop: $($anchor.attr('href')).offset().top
+        }, 1000);
+        */
+        event.preventDefault();
+    });
+});
+</script>
+
+
+<script src="twitter/jquery.tweet.js"></script>
+<script type='text/javascript'>
+     jQuery(function($){
+      $("#ticker").tweet({
+        username: "tnw", /*Enter your Twitter username inside quotes eg: web3canvas, barackobama etc*/
+        page: 1, /*How many tweets to show at a time, You need to increase #ticker height if you increased this value*/
+        avatar_size: null, /*If you want to show your twitter avatar, just change null to avatar size you needed eg: 32, 50, 80 etc..*/
+        count: 1, /*Total counts of tweets. */
+        loading_text: "Bringing latest tweets..." /*Loading text*/
+      }).bind("loaded", function() {
+        var ul = $(this).find(".tweet_list");
+        var ticker = function() {
+          setTimeout(function() {
+            var top = ul.position().top;
+            var h = ul.height();
+            var incr = (h / ul.children().length);
+            var newTop = top - incr;
+            if (h + newTop <= 0) newTop = 0;
+            ul.animate( {top: newTop}, 500 ); /*Speed of Scrolling*/
+            ticker();
+          }, 5000); /*Delay of changing tweet*/
+        };
+        ticker();
+      });
+    });
+
+</script>
+
+<script>
+
+$(function() {
+ $(".showmore").click(function() {
+	 $(".moreevents").slideToggle();
+	$(".showmore span").text(($(".showmore span").text() == "SHOW ALL EVENTS") ? "HIDE ALL EVENTS" : "SHOW ALL EVENTS") ;
+ });
+});
+
+</script>
+
+<script>
+
+  $(document).ready(function(){
+
+$(".playvideo").click(function(){
+ var videourl = $(this).data("url");
+ $(this).append('<span class="videoload">Loading video...</span>')
+ $('.mediavideo iframe').attr('src', videourl);
+ setTimeout(function() {
+ $('.videoload').remove();
+ },1000);
+});
+
+});
+</script>
+
+<script type="text/javascript">
+function cargaSendMail(){
+$("#c_enviar").attr("disabled", true);
+$(".c_error").remove();
+var filter=/^[A-Za-z][A-Za-z0-9_]*@[A-Za-z0-9_]+.[A-Za-z0-9_.]+[A-za-z]$/;
+var s_email = $('#c_mail').val();
+var s_name = $('#c_name').val();
+var s_msg = $('#c_msg').val();
+
+if (filter.test(s_email)){
+sendMail = "true";
+} else{
+$('#c_mail').after("<span class='c_error' id='c_error_mail'>Ingrese e-mail valido.</span>");
+ //aplicamos color de borde si el se encontro algun error en el envio
+$('#contactform').css("border-color","#e74c3c");
+sendMail = "false";
+}
+if (s_name.length == 0 ){
+$('#c_name').after( "<span class='c_error' id='c_error_name'>Ingrese su nombre.</span>" );
+var sendMail = "false";
+}
+if (s_msg.length == 0 ){
+$('#c_msg').after( "<span class='c_error' id='c_error_msg'>Ingrese mensaje.</span>" );
+var sendMail = "false";
+}
+if(sendMail == "true"){
+ var datos = {
+         "nombre" : $('#c_name').val(),
+         "email" : $('#c_mail').val(),
+         "mensaje" : $('#c_msg').val()
+ };
+
+ $.ajax({
+         data:  datos,
+         // hacemos referencia al archivo contacto.php
+         url:   'contact.php',
+         type:  'post',
+         beforeSend: function () {
+         //aplicamos color de borde si el envio es exitoso
+                $('#contactform').css("border-color","#25A25A");
+                $("#c_enviar").val("Enviando...");
+         },
+         success:  function (response) {
+                $('form')[0].reset();
+                $("#c_enviar").val("Enviar");
+                $("#c_information p").html(response);
+                $("#c_information").fadeIn('slow');
+                $("#c_enviar").removeAttr("disabled");
+         }
+ });
+} else{
+    $("#c_enviar").removeAttr("disabled");
+}
+}
+
+  </script>
+
+</body>
+</html>
